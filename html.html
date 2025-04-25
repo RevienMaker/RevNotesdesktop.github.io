@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevNotes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div class="left-nav">
+                <div class="logo">
+                    <img src="./img/RevNotes-Logo(sin fondo).png" alt="Logo de la App">
+                    <span>RevNotes</span>
+                </div>
+                <ul class="menu">
+                    <li class="dropdown">
+                        <a href="#">Sobre mí <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" stroke-width="2">
+                            <path d="M6 9l6 6l6 -6"></path>
+                          </svg></a>
+                          <ul class="dropdown-content">
+                            <li><a href="https://neiverperalta.vercel.app/">Sitio web</a></li>
+                            <li><a href="https://www.instagram.com/revienmaker?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li>
+                            <li><a href="https://youtube.com/@revienmaker?si=BjEQUrR9LJhIRxnA">Youtube</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Donación</a></li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <a href="https://github.com/RevienMaker/RevNotes-Desktop/releases/download/new/RevNotes.Setup.1.0.0.exe">
+                    <button class="download-btn">
+                        Descargar App
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" stroke-width="3">
+                            <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
+                            <path d="M7 11l5 5l5 -5"></path>
+                            <path d="M12 4l0 12"></path>
+                          </svg>
+                    </button>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Tu Libreta de Notas Completa</h1>
+            <p>Notas a tu Medida: Títulos, Listas, Multimedia y Código.</p>
+            <a href="https://github.com/RevienMaker/RevNotes-Desktop/releases/download/new/RevNotes.Setup.1.0.0.exe">
+                <button class="download-btn primary">Descargar App</button>
+            </a>
+        </div>
+        <div class="hero-image">
+            <img src="./img/RevNotes-Logo(sin fondo).png" alt="Logo de la App">
+        </div>
+    </section>
+
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="./img/ImagenTexto.png" alt="Captura de pantalla 1">
+                <img src="./img/OrdenImagen.png" alt="Captura de pantalla 2">
+                <img src="./img/FuncionesImagen.png" alt="Captura de pantalla 3">
+            </div>
+        </div>
+            <div class="carousel-navigation">
+                <button class="nav-btn" data-index="0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                        <path d="M3 7v-2h13v2"></path>
+                        <path d="M10 5v14"></path>
+                        <path d="M12 19h-4"></path>
+                        <path d="M15 13v-1h6v1"></path>
+                        <path d="M18 12v7"></path>
+                        <path d="M17 19h2"></path>
+                      </svg>
+                    <span>Notas</span>
+                </button>
+                <button class="nav-btn" data-index="1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                        <path d="M5 19l2.757 -7.351a1 1 0 0 1 .936 -.649h12.307a1 1 0 0 1 .986 1.164l-.996 5.211a2 2 0 0 1 -1.964 1.625h-14.026a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v2"></path>
+                      </svg>
+                    <span>Organización</span>
+                </button>
+                <button class="nav-btn" data-index="2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                        <path d="M4 15h16"></path>
+                        <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"></path>
+                        <path d="M4 20h12"></path>
+                    </svg>
+                    <span>Funcionalidades</span>
+                </button>
+            </div>
+    </section>
+
+    <section class="feature-section minimalist-section">
+        <div class="feature-image">
+            <img src="./img/Minimalismo.png" alt="Aplicación minimalista en un dispositivo pequeño">
+        </div>
+        <div class="feature-content">
+            <span class="feature-tag">MINIMALISMO Y MULTITAREA</span>
+            <h2 class="feature-title">Diseño Adaptable para tu Ritmo.</h2>
+            <p class="feature-description">
+                Un diseño intuitivo que se adapta a ti. Ya sea en pantalla completa o compartiendo espacio con otras apps, la simplicidad de la interfaz te permite capturar y organizar tus ideas sin esfuerzo.
+            </p>
+            <ul class="feature-list">
+                <li>
+                    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                        <path d="M3.5 17.5c5.667 4.667 11.333 4.667 17 0"></path>
+                        <path d="M19 18.5l-2 -8.5l1 -2l2 1l1.5 -1.5l-2.5 -4.5c-5.052 .218 -5.99 3.133 -7 6h-6a3 3 0 0 0 -3 3"></path>
+                        <path d="M5 18.5l2 -9.5"></path>
+                        <path d="M8 20l2 -5h4l2 5"></path>
+                      </svg>
+                    <span>Diseño Minimalista y Concentrado</span>
+                </li>
+                <li>
+                    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                        <path d="M3 6a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                        <path d="M21 11v-3a2 2 0 0 0 -2 -2h-6l3 3m0 -6l-3 3"></path>
+                        <path d="M3 13v3a2 2 0 0 0 2 2h6l-3 -3m0 6l3 -3"></path>
+                        <path d="M15 18a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                      </svg>
+                    <span>Interfaz Adaptable a Pantallas Pequeñas</span>
+                </li>
+                <li>
+                    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                        <path d="M4 4l6 0"></path>
+                        <path d="M14 4l6 0"></path>
+                        <path d="M4 8m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
+                        <path d="M14 8m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
+                      </svg>
+                    <span>Ideal para Multitarea y Copiar/Pegar</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="feature-section rich-features-section">
+        <div class="feature-content">
+            <span class="feature-tag">FUNCIONALIDADES ENRIQUECIDAS</span>
+            <h2 class="feature-title">Da Vida a tus Notas con Multimedia y Más.</h2>
+            <p class="feature-description">
+                Más que un simple texto. Enriquece tus ideas con imágenes ilustrativas, videos explicativos, código formateado para tus proyectos y una paleta de colores para destacar lo importante. Organiza visualmente tus pensamientos y haz que tus notas cobren vida.
+            </p>
+            <ul class="feature-list">
+                <li>
+                    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                        <path d="M15 8h.01"></path>
+                        <path d="M12.5 21h-6.5a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v6.5"></path>
+                        <path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l4 4"></path>
+                        <path d="M14 14l1 -1c.67 -.644 1.45 -.824 2.182 -.54"></path>
+                        <path d="M16 19h6"></path>
+                        <path d="M19 16v6"></path>
+                      </svg>
+                    <span>Inserta Imágenes y Videos</span>
+                </li>
+                <li>
+                    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                        <path d="M7 8l-4 4l4 4"></path>
+                        <path d="M17 8l4 4l-4 4"></path>
+                        <path d="M14 4l-4 16"></path>
+                      </svg>
+                    <span>Bloques de Código Formateado</span>
+                </li>
+                <li>
+                    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                        <path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25"></path>
+                        <path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                        <path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                        <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                      </svg>
+                    <span>Resalta con Colores Personalizados</span>
+                </li>
+            </ul>
+        </div>
+        <div class="feature-image">
+            <img src="./img/Codigo.png" alt="Aplicación mostrando imágenes, código y texto con colores">
+        </div>
+    </section>
+
+    <section class="get-started-single image-bottom-left">
+        <div class="app-info">
+            <h3>Tu Libreta de Ideas</h3>
+            <div class="buttons">
+                <button class="try-free-btn"><a href="#hero">Probar Gratis</a></button>
+                <button class="download-btn">
+                    <a href="https://github.com/RevienMaker/RevNotes-Desktop/releases/download/new/RevNotes.Setup.1.0.0.exe">Descargar para PC
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" stroke-width="3">
+                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
+                        <path d="M7 11l5 5l5 -5"></path>
+                        <path d="M12 4l0 12"></path>
+                      </svg></a>
+                    
+                </button>
+            </div>
+        </div>
+        <div class="app-image">
+            <img src="./img/ImagenTexto.png" alt="Captura de pantalla de la app en PC">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section social">
+                <a href="#hero">
+                    <div class="logo">
+                        <img src="./img/RevNotes-Logo(sin fondo).png" alt="Logo de la App">
+                        <span>RevNotes</span>
+                    </div>
+                </a>
+            </div>
+            <div class="footer-section about-me">
+                <h3>Sobre Mí</h3>
+                <p>Un proyecto personal de Neiver Peralta (Revien) para crear una herramienta de notas simple y poderosa.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/revienmaker?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Mi intagram</a></li>
+                    <li><a href="https://youtube.com/@revienmaker?si=BjEQUrR9LJhIRxnA">Mi canal de Youtube</a></li>
+                    <li><a href="https://neiverperalta.vercel.app/" target="_blank" rel="noopener noreferrer">Mi Página Web Personal</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Neiver Peralta. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+    <script>
+        const carousel = document.querySelector('.carousel');
+        const navButtons = document.querySelectorAll('.nav-btn');
+        const images = document.querySelectorAll('.carousel img');
+        let currentIndex = 0;
+        const intervalTime = 4000; // Intervalo en milisegundos (4 segundos)
+        let intervalId;
+
+        function goToSlide(index) {
+            carousel.style.transform = `translateX(-${index * 100}%)`;
+            currentIndex = index;
+            updateNavButtons(); // Llamamos a la función para actualizar el estado de los botones
+        }
+
+        function updateNavButtons() {
+            navButtons.forEach((button, index) => {
+                button.classList.remove('active'); // Removemos la clase 'active' de todos los botones
+                if (index === currentIndex) {
+                    button.classList.add('active'); // Añadimos la clase 'active' al botón correspondiente al slide actual
+                }
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % images.length;
+            goToSlide(currentIndex);
+        }
+
+        function startCarousel() {
+            intervalId = setInterval(nextSlide, intervalTime);
+        }
+
+        function stopCarousel() {
+            clearInterval(intervalId);
+        }
+
+        navButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const index = parseInt(button.getAttribute('data-index'));
+                goToSlide(index);
+                stopCarousel();
+                startCarousel();
+            });
+        });
+
+        // Inicializar el primer slide como activo
+        updateNavButtons();
+        startCarousel();
+
+        // Navegacion----------------------------------------------------------------------------------------------------
+
+        const headerNav = document.getElementById('nav');
+
+        function checkScroll() {
+            if (window.scrollY > 0) {
+                headerNav.style.borderBottomColor = '#dbd7d7'; /* Color del borde cuando se hace scroll */
+            } else {
+                headerNav.style.borderBottomColor = 'transparent'; /* Borde transparente en la parte superior */
+            }
+        }
+
+        // Ejecutar la función al cargar la página por si ya hay un poco de scroll
+        checkScroll();
+
+        // Ejecutar la función cada vez que se haga scroll
+        window.addEventListener('scroll', checkScroll);
+    </script>
+</html>
