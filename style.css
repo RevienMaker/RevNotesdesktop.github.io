@@ -293,11 +293,6 @@ header {
     background-color: transparent; /* Opcional: un fondo ligero para la sección */
 }
 
-.feature-section.minimalist-section {
-    /* flex-direction: row-reverse;  */
-    /* Invierte el orden para variar el diseño */
-}
-
 .feature-image {
     flex: 1;
     text-align: center;
